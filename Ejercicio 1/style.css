@@ -1,0 +1,58 @@
+
+table, th, td{
+    border-collapse: collapse;
+    border: rgb(0, 0, 0) 2px solid;
+}
+#img_usd, #img_euro, #img_yen, #img_libra{
+    width: 10%;
+}
+body{
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 34px;
+    text-align: center;
+    background: rgb(196,211,244);
+background: radial-gradient(circle, rgba(196,211,244,1) 0%, rgba(255,255,255,1) 100%);
+}
+h1{
+    display: inline-block;
+}
+#img_calcu{
+    width: 40px;
+    height: auto;
+    margin-top: 5%;
+}
+#texto{
+    border: rgb(0, 38, 255) 2px solid;
+    border-radius: 15px;
+    text-align: left;
+    padding: 0 50px;
+    margin: 0;
+}
+#num_a_convertir{
+    border: rgb(0, 38, 255) 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px;
+    margin: 25px 0 10px 0;
+    font-size: 24px;
+    display: inline-block;
+}
+#img_usd_conversor, #img_euro_conversor{
+    width: 50px;
+    padding: 0 0 0 0;
+
+}
+#input_number{
+    text-align: center;
+    color: rgb(95, 95, 243);
+    font-size: 30px;
+}
+button{
+    margin: 0 5px;
+    padding: 0 0 0 0;
+}
+#calculatorpng{
+    width: 45px;
+}
